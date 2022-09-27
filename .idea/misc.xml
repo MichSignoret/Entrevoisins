@@ -11,7 +11,12 @@
         <entry key="..\:/Users/Michel/Documents/devMobile/Entrevoisins/app/src/main/res/drawable/ic__adress.xml" value="0.193" />
         <entry key="..\:/Users/Michel/Documents/devMobile/Entrevoisins/app/src/main/res/drawable/ic__internet.xml" value="0.193" />
         <entry key="..\:/Users/Michel/Documents/devMobile/Entrevoisins/app/src/main/res/drawable/ic__phone.xml" value="0.193" />
+        <entry key="..\:/Users/Michel/Documents/devMobile/Entrevoisins/app/src/main/res/drawable/ic_back.xml" value="0.137" />
+        <entry key="..\:/Users/Michel/Documents/devMobile/Entrevoisins/app/src/main/res/layout/activity_add_neighbour.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/Michel/Documents/devMobile/Entrevoisins/app/src/main/res/layout/activity_list_neighbour.xml" value="0.14739583333333334" />
         <entry key="..\:/Users/Michel/Documents/devMobile/Entrevoisins/app/src/main/res/layout/activity_open_neighbour.xml" value="0.22" />
+        <entry key="..\:/Users/Michel/Documents/devMobile/Entrevoisins/app/src/main/res/layout/fragment_list_neighbour.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/Michel/Documents/devMobile/Entrevoisins/app/src/main/res/layout/fragment_neighbour.xml" value="0.14739583333333334" />
       </map>
     </option>
   </component>
