@@ -57,7 +57,7 @@ public class MyNeighbourRecyclerViewAdapter extends RecyclerView.Adapter<MyNeigh
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.e(getClass().getSimpleName(),"position : " + holder.getAdapterPosition());
+//                Log.e(getClass().getSimpleName(),"position : " + holder.getAdapterPosition());
 
 
                 Intent i = new Intent(mContext.getApplicationContext(), OpenNeighbourActivity.class);
@@ -82,10 +82,6 @@ public class MyNeighbourRecyclerViewAdapter extends RecyclerView.Adapter<MyNeigh
         return mNeighbours.size();
     }
 
-//    @Override
-//    public void onClick(View view) {
-//        Log.e(getClass().getSimpleName(),"je suis la");
-//    }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         @BindView(R.id.item_list_avatar)

@@ -1,7 +1,6 @@
 package com.openclassrooms.entrevoisins.di;
 
 import com.openclassrooms.entrevoisins.service.DummyNeighbourApiService;
-import com.openclassrooms.entrevoisins.service.FavoriteNeighbourApiService;
 import com.openclassrooms.entrevoisins.service.NeighbourApiService;
 
 /**
@@ -11,8 +10,6 @@ public class DI {
 
     private static NeighbourApiService service = new DummyNeighbourApiService();
 
-    private static NeighbourApiService FavoriteNeighbourService = new FavoriteNeighbourApiService();
-
     /**
      * Get an instance on @{@link NeighbourApiService}
      * @return
@@ -21,9 +18,6 @@ public class DI {
         return service;
     }
 
-    public static NeighbourApiService getFavoriteNeighbourApiService() {
-        return FavoriteNeighbourService;
-    }
 
     /**
      * Get always a new instance on @{@link NeighbourApiService}. Useful for tests, so we ensure the context is clean.
