@@ -86,15 +86,17 @@ public class NeighboursListTest {
                 .perform(RecyclerViewActions.actionOnItemAtPosition(1, new OpenViewAction()));
     }
 
-    /**
-     * list favorites
-     */
-    @Test
-    public void listNeighbour(){
-        Neighbour neighbourFavorite = service.getNeighbours().get(0);
-        neighbourFavorite.setIsFavorite(true);
-        onView(ViewMatchers.withId(R.id.list_neighbours_favorite))
-                .check(matches(hasMinimumChildCount(1)));
-    }
+//    /**
+//     * list favorites
+//     */
+//    @Test
+//    public void listNeighbour(){
+//        Neighbour neighbourFavorite = service.getNeighbours().get(0);
+//        neighbourFavorite.setIsFavorite(true);
+//
+//
+//        onView(ViewMatchers.withId(R.id.list_neighbours_favorite))
+//                .check(matches(hasMinimumChildCount(1)));
+//    }
 
 }
