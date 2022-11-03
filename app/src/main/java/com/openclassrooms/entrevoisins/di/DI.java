@@ -18,6 +18,7 @@ public class DI {
         return service;
     }
 
+
     /**
      * Get always a new instance on @{@link NeighbourApiService}. Useful for tests, so we ensure the context is clean.
      * @return
