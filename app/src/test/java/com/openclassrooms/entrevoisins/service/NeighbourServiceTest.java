@@ -60,5 +60,17 @@ public class NeighbourServiceTest {
         assertFalse(service.getFavoriteNeighbours().contains(neighbourToAdd));
     }
 
+    @Test
+    public void controlFavoriteList()
+    {
+        service.getNeighbours().get(0).setIsFavorite(true);
+        service.getNeighbours().get(1).setIsFavorite(true);
+        for (Neighbour n :service.getFavoriteNeighbours()
+             ) {
+            assertTrue(n.getIsFavorite()==true);
+        }
+        assertTrue(service.getFavoriteNeighbours().size()==2);
+    }
+
 
 }
